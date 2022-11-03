@@ -43,7 +43,10 @@ placeholder="Harga Barang" required>
 <label for="">Nama pengirim</label>
     <input type="nmdist " id="">
     <option></option>  
-    <option value=""></option>  
+    <?php foreach ($data['distri'] as $jen) { ?>
+        <option value="<?=$jen['iddist']?>">
+        <?=$dis['nmdist']?></option>
+        php } ?>
 </select>
 </div>
 <div>

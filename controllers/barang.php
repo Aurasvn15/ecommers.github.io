@@ -15,3 +15,6 @@
         $data['distri']=$db->query($connect,"SELECT *FROM tdistributor");
         $helpers->load_view('Barang/addbarang.php',$data);
     }
+    if($aksi='save'){
+        $idbarang=$_POST
+    }
